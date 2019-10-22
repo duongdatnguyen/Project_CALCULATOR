@@ -19,8 +19,10 @@ namespace CALCULATOR_Project
         }
         public void savegiatribieuthuc(string trungto)
         {
-
-            Bieuthuc.Append(trungto);
+            if ((trungto == "+") || (trungto == "-") || (trungto == "*") || (trungto == "/"))
+                Bieuthuc.Append(" ").Append(trungto);
+            else
+                Bieuthuc.Append(trungto);
 
         }
         // Biểu thức cho ra đã đúng 
@@ -41,7 +43,7 @@ namespace CALCULATOR_Project
         }
         public void duavaostack(StringBuilder Bieuthuc)
         {
-
+            Bieuthuc.Append(' ');
             foreach (char st in Bieuthuc.ToString())
             {
                 if (latoantu(st) == 0 && (st != '(')&&(st!=')'))
@@ -54,16 +56,18 @@ namespace CALCULATOR_Project
                     while (x != '(')
                     {
                         //char y = Hauto.Pop();
-                        Luutrutoanhang.Append(x);
+                        Luutrutoanhang.Append(' ').Append(x);
                         x = Hauto.Pop();
                     }
-                    if(Hauto.Count!=0)
+                    if(Hauto.Peek()=='(')
                         Hauto.Pop();
                 }
                 
                 else
                 {
-                    if ((Hauto.Count == 0)||((douutien(st) > douutien(Hauto.Peek()))))
+                    if (st == ' ')
+                        Luutrutoanhang.Append(st);
+                    else if ((Hauto.Count == 0)||((douutien(st) > douutien(Hauto.Peek()))))
                     {
                         Hauto.Push(st);
                     }
@@ -71,7 +75,7 @@ namespace CALCULATOR_Project
                     {
 
                         char y = Hauto.Pop();
-                        Luutrutoanhang.Append(y);
+                        Luutrutoanhang.Append(y).Append(' ');
                         Hauto.Push(st);
                         //if (douutien(st) <= douutien(Hauto.Peek()))
                           //  Luutrutoanhang.Append(st);
@@ -79,7 +83,12 @@ namespace CALCULATOR_Project
                     
                 }  
             }
-            while (Hauto.Count != 0)
+            while (Hauto.Count != 1)
+            {
+                Luutrutoanhang.Append(Hauto.Pop()).Append(' ');
+                
+            }
+            if (Hauto.Count == 1)
                 Luutrutoanhang.Append(Hauto.Pop());
         }
 

@@ -13,25 +13,29 @@ namespace CALCULATOR_Project
             
         public string tinh()
             {
-                
-                foreach (char st in Luutrutoanhang.ToString())
+            /*for(int i=0;i<Luutrutoanhang.ToString().Length;i++)
+            {
+                if 
+            }*/
+            string[] tach = Luutrutoanhang.ToString().Split(' ');
+            //Giatri.Push(0);
+                foreach (string st in tach )
                 {
-                    if (LuuTru.latoantu(st) == 0)
-                    {
-                        string x = st.ToString();
-                        Giatri.Push(float.Parse(x));
-
-                    }
+                if ((st != "+") && (st != "-") && (st != "*") && (st != "/"))
+                {
+                    Giatri.Push(float.Parse(st));
+                }
+                
                     else
                     {
                         float y = Giatri.Pop();
                         float x = Giatri.Pop();
                         switch (st)
                         {
-                            case '+': y = x + y; break;
-                            case '-': y = x - y; break;
-                            case '*': y = x * y; break;
-                            case '/': y = x / y; break;
+                            case "+": y = x + y; break;
+                            case "-": y = x - y; break;
+                            case "*": y = x * y; break;
+                            case "/": y = x / y; break;
                         }
                       Giatri.Push(y);
                     }

@@ -89,7 +89,7 @@ namespace CALCULATOR_Project
         {
             R.duavaostack(R.Bieuthuc);
             Bieuthuc_hauto.Text = R.Luutrutoanhang.ToString();
-            string result = R.tinh();
+             string result = R.tinh();
             Box.Text = result;
             //Box.Text = R.Luutrutoanhang.ToString();
         }
