@@ -12,6 +12,7 @@ namespace CALCULATOR_Project
         public StringBuilder Bieuthuc = new StringBuilder();
         public Stack<char> Hauto = new Stack<char>();
         public StringBuilder Luutrutoanhang=new StringBuilder();// đây là biểu thức hậu tố ta được 
+        public string ST;
         public string Trungto
         {
             get { return trungto; }
@@ -19,12 +20,14 @@ namespace CALCULATOR_Project
         }
         public void savegiatribieuthuc(string trungto)
         {
+           
             if ((trungto == "+") || (trungto == "-") || (trungto == "*") || (trungto == "/"))
                 Bieuthuc.Append(" ").Append(trungto);
             else
                 Bieuthuc.Append(trungto);
-
+            
         }
+        
         // Biểu thức cho ra đã đúng 
         public static int latoantu(char st)
         {
@@ -90,7 +93,14 @@ namespace CALCULATOR_Project
             }
             if (Hauto.Count == 1)
                 Luutrutoanhang.Append(Hauto.Pop());
+            ST = Luutrutoanhang.ToString();
+            while (ST.IndexOf("  ")!=-1)
+            {
+                 ST=ST.Replace("  ", " ");
+             
+            }
+            ST=ST.Trim();
         }
-
+        
     }
 }

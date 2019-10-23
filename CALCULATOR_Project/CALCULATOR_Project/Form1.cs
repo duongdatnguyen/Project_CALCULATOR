@@ -88,10 +88,12 @@ namespace CALCULATOR_Project
         private void DauBang_Click(object sender, EventArgs e)// đang xử lý ...........................................
         {
             R.duavaostack(R.Bieuthuc);
-            Bieuthuc_hauto.Text = R.Luutrutoanhang.ToString();
+            //Bieuthuc_hauto.Text = R.Luutrutoanhang.ToString();
+            Bieuthuc_hauto.Text = R.ST;
              string result = R.tinh();
-            Box.Text = result;
-            //Box.Text = R.Luutrutoanhang.ToString();
+             Box.Text = result;
+             //Box.Text = R.Luutrutoanhang.ToString();
+
         }
 
         private void plusButton_Click(object sender, EventArgs e)
@@ -131,7 +133,7 @@ namespace CALCULATOR_Project
 
         private void xoa1so_Click(object sender, EventArgs e)
         {
-            //Box.Text = Box.Text - BoxInputOfStack.Text;
+            
         }
 
         private void xoaHet_Click(object sender, EventArgs e)
@@ -149,8 +151,8 @@ namespace CALCULATOR_Project
         private void BoxInputOfStack_TextChanged(object sender, EventArgs e)
         {
             R.Trungto = BoxInputOfStack.Text;
-            
             R.savegiatribieuthuc(R.Trungto);
+            
              //Bieuthuc_hauto.Text = R.Bieuthuc.ToString();
             
         }

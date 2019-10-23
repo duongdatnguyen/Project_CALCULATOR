@@ -13,11 +13,8 @@ namespace CALCULATOR_Project
             
         public string tinh()
             {
-            /*for(int i=0;i<Luutrutoanhang.ToString().Length;i++)
-            {
-                if 
-            }*/
-            string[] tach = Luutrutoanhang.ToString().Split(' ');
+            string[] tach = ST.Split(' ');
+            //string[] tach = Luutrutoanhang.ToString().Split(' ');
             //Giatri.Push(0);
                 foreach (string st in tach )
                 {
@@ -26,7 +23,9 @@ namespace CALCULATOR_Project
                     Giatri.Push(float.Parse(st));
                 }
                 
-                    else
+                else
+                  {
+                    if (Giatri.Count != 1)
                     {
                         float y = Giatri.Pop();
                         float x = Giatri.Pop();
@@ -37,7 +36,20 @@ namespace CALCULATOR_Project
                             case "*": y = x * y; break;
                             case "/": y = x / y; break;
                         }
-                      Giatri.Push(y);
+                        Giatri.Push(y);
+                    }
+                    else// trong trường hợp số âm 
+                    {
+                        float x = Giatri.Pop();
+                        switch(st)
+                        {
+                            //case "+": x = x + 0; break;
+                            case "-": x = 0 - x; break;
+                            //case "*": x = x * 1; break;
+                            //case "/": x = x / 1; break;
+                        }
+                        Giatri.Push(x);
+                    }
                     }
                 }
                 return Giatri.Pop().ToString();
