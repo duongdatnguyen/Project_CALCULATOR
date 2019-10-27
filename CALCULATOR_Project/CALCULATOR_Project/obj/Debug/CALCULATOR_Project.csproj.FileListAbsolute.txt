@@ -17,3 +17,12 @@ D:\GitHub\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CAL
 D:\GitHub\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.CoreCompileInputs.cache
 D:\GitHub\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.exe
 D:\GitHub\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.pdb
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe.config
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.pdb
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csprojAssemblyReference.cache
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Form1.resources
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Properties.Resources.resources
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.GenerateResource.cache
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.exe
+E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.pdb

@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace CALCULATOR_Project
 {
@@ -29,12 +33,28 @@ namespace CALCULATOR_Project
                     {
                         float y = Giatri.Pop();
                         float x = Giatri.Pop();
-                        switch (st)
+                        /*switch (st)
                         {
                             case "+": y = x + y; break;
                             case "-": y = x - y; break;
                             case "*": y = x * y; break;
                             case "/": y = x / y; break;
+                        }*/
+                        if (st == "+")
+                            y = x + y;
+                        if (st == "-")
+                            y = x - y;
+                        if (st == "*")
+                            y = x * y;
+                        if (st == "/")
+                        {
+                            if (y == 0)
+                            {
+                                MessageBox.Show("Can not devide by zero!","Math Error!");
+                                return Form1.result = "error";
+                            }
+                            else
+                                y = x / y;
                         }
                         Giatri.Push(y);
                     }

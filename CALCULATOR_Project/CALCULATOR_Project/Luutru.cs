@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace CALCULATOR_Project
 {
@@ -13,6 +17,7 @@ namespace CALCULATOR_Project
         public Stack<char> Hauto = new Stack<char>();
         public StringBuilder Luutrutoanhang=new StringBuilder();// đây là biểu thức hậu tố ta được 
         public string ST;
+        private int kiemtra = 0;
         public string Trungto
         {
             get { return trungto; }
@@ -49,12 +54,16 @@ namespace CALCULATOR_Project
             Bieuthuc.Append(' ');
             foreach (char st in Bieuthuc.ToString())
             {
-                if (latoantu(st) == 0 && (st != '(')&&(st!=')'))
+                if (latoantu(st) == 0 && (st != '(') && (st != ')'))
                     Luutrutoanhang.Append(st);
                 else if (st == '(')
+                {
                     Hauto.Push(st);
+                    kiemtra++;
+                }
                 else if (st == ')')
                 {
+                    kiemtra--;
                     char x = Hauto.Pop();
                     while (x != '(')
                     {
@@ -62,15 +71,15 @@ namespace CALCULATOR_Project
                         Luutrutoanhang.Append(' ').Append(x);
                         x = Hauto.Pop();
                     }
-                    if(Hauto.Peek()=='(')
+                    if (Hauto.Peek() == '(')
                         Hauto.Pop();
                 }
-                
+
                 else
                 {
                     if (st == ' ')
                         Luutrutoanhang.Append(st);
-                    else if ((Hauto.Count == 0)||((douutien(st) > douutien(Hauto.Peek()))))
+                    else if ((Hauto.Count == 0) || ((douutien(st) > douutien(Hauto.Peek()))))
                     {
                         Hauto.Push(st);
                     }
@@ -81,26 +90,40 @@ namespace CALCULATOR_Project
                         Luutrutoanhang.Append(y).Append(' ');
                         Hauto.Push(st);
                         //if (douutien(st) <= douutien(Hauto.Peek()))
-                          //  Luutrutoanhang.Append(st);
+                        //  Luutrutoanhang.Append(st);
                     }
-                    
-                }  
+
+                }
             }
             while (Hauto.Count != 1)
             {
                 Luutrutoanhang.Append(Hauto.Pop()).Append(' ');
-                
+
             }
             if (Hauto.Count == 1)
                 Luutrutoanhang.Append(Hauto.Pop());
             ST = Luutrutoanhang.ToString();
-            while (ST.IndexOf("  ")!=-1)
+            while (ST.IndexOf("  ") != -1)
             {
-                 ST=ST.Replace("  ", " ");
-             
+                ST = ST.Replace("  ", " ");
+
             }
-            ST=ST.Trim();
+            ST = ST.Trim();
         }
-        
+        /*public string Test()
+        { 
+            if (kiemtra > 0)
+            {
+                MessageBox.Show("Dư dấu mở ngoặc hoặc thiếu dấu đóng ngoặc.");
+                return Form1.result = "error";
+            }
+            if (kiemtra < 0)
+            {
+                MessageBox.Show("Dư dấu đóng ngoặc hoặc thiếu dấu mở ngoặc.");
+                return Form1.result = "error";
+            }
+            return "no";
+        }*/
+
     }
 }
