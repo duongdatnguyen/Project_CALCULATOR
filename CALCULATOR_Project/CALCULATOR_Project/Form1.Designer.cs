@@ -60,10 +60,11 @@
             // 
             this.BoxInputOfStack.BackColor = System.Drawing.SystemColors.Window;
             this.BoxInputOfStack.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BoxInputOfStack.Location = new System.Drawing.Point(12, 12);
+            this.BoxInputOfStack.Location = new System.Drawing.Point(16, 15);
+            this.BoxInputOfStack.Margin = new System.Windows.Forms.Padding(4);
             this.BoxInputOfStack.Name = "BoxInputOfStack";
             this.BoxInputOfStack.ReadOnly = true;
-            this.BoxInputOfStack.Size = new System.Drawing.Size(95, 46);
+            this.BoxInputOfStack.Size = new System.Drawing.Size(89, 56);
             this.BoxInputOfStack.TabIndex = 0;
             this.BoxInputOfStack.TextChanged += new System.EventHandler(this.BoxInputOfStack_TextChanged);
             // 
@@ -71,11 +72,12 @@
             // 
             this.Box.BackColor = System.Drawing.SystemColors.Window;
             this.Box.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Box.Location = new System.Drawing.Point(113, 12);
+            this.Box.Location = new System.Drawing.Point(113, 15);
+            this.Box.Margin = new System.Windows.Forms.Padding(4);
             this.Box.Name = "Box";
             this.Box.ReadOnly = true;
             this.Box.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.Box.Size = new System.Drawing.Size(404, 46);
+            this.Box.Size = new System.Drawing.Size(524, 56);
             this.Box.TabIndex = 1;
             this.Box.TextChanged += new System.EventHandler(this.Box_TextChanged);
             // 
@@ -84,9 +86,10 @@
             this.number1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number1.BackgroundImage")));
             this.number1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number1.Location = new System.Drawing.Point(11, 66);
+            this.number1.Location = new System.Drawing.Point(15, 81);
+            this.number1.Margin = new System.Windows.Forms.Padding(4);
             this.number1.Name = "number1";
-            this.number1.Size = new System.Drawing.Size(96, 49);
+            this.number1.Size = new System.Drawing.Size(128, 60);
             this.number1.TabIndex = 2;
             this.number1.Text = "1";
             this.number1.UseVisualStyleBackColor = true;
@@ -97,9 +100,10 @@
             this.number2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number2.BackgroundImage")));
             this.number2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number2.Location = new System.Drawing.Point(113, 67);
+            this.number2.Location = new System.Drawing.Point(151, 82);
+            this.number2.Margin = new System.Windows.Forms.Padding(4);
             this.number2.Name = "number2";
-            this.number2.Size = new System.Drawing.Size(96, 48);
+            this.number2.Size = new System.Drawing.Size(128, 59);
             this.number2.TabIndex = 2;
             this.number2.Text = "2";
             this.number2.UseVisualStyleBackColor = true;
@@ -110,9 +114,10 @@
             this.number3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number3.BackgroundImage")));
             this.number3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number3.Location = new System.Drawing.Point(217, 66);
+            this.number3.Location = new System.Drawing.Point(289, 81);
+            this.number3.Margin = new System.Windows.Forms.Padding(4);
             this.number3.Name = "number3";
-            this.number3.Size = new System.Drawing.Size(96, 49);
+            this.number3.Size = new System.Drawing.Size(128, 60);
             this.number3.TabIndex = 2;
             this.number3.Text = "3";
             this.number3.UseVisualStyleBackColor = true;
@@ -123,9 +128,10 @@
             this.number4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number4.BackgroundImage")));
             this.number4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number4.Location = new System.Drawing.Point(11, 121);
+            this.number4.Location = new System.Drawing.Point(15, 149);
+            this.number4.Margin = new System.Windows.Forms.Padding(4);
             this.number4.Name = "number4";
-            this.number4.Size = new System.Drawing.Size(96, 48);
+            this.number4.Size = new System.Drawing.Size(128, 59);
             this.number4.TabIndex = 2;
             this.number4.Text = "4";
             this.number4.UseVisualStyleBackColor = true;
@@ -136,9 +142,10 @@
             this.number5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number5.BackgroundImage")));
             this.number5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number5.Location = new System.Drawing.Point(113, 121);
+            this.number5.Location = new System.Drawing.Point(151, 149);
+            this.number5.Margin = new System.Windows.Forms.Padding(4);
             this.number5.Name = "number5";
-            this.number5.Size = new System.Drawing.Size(96, 48);
+            this.number5.Size = new System.Drawing.Size(128, 59);
             this.number5.TabIndex = 2;
             this.number5.Text = "5";
             this.number5.UseVisualStyleBackColor = true;
@@ -149,9 +156,10 @@
             this.number6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number6.BackgroundImage")));
             this.number6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number6.Location = new System.Drawing.Point(217, 121);
+            this.number6.Location = new System.Drawing.Point(289, 149);
+            this.number6.Margin = new System.Windows.Forms.Padding(4);
             this.number6.Name = "number6";
-            this.number6.Size = new System.Drawing.Size(96, 48);
+            this.number6.Size = new System.Drawing.Size(128, 59);
             this.number6.TabIndex = 2;
             this.number6.Text = "6";
             this.number6.UseVisualStyleBackColor = true;
@@ -162,9 +170,10 @@
             this.number7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number7.BackgroundImage")));
             this.number7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number7.Location = new System.Drawing.Point(11, 175);
+            this.number7.Location = new System.Drawing.Point(15, 215);
+            this.number7.Margin = new System.Windows.Forms.Padding(4);
             this.number7.Name = "number7";
-            this.number7.Size = new System.Drawing.Size(96, 48);
+            this.number7.Size = new System.Drawing.Size(128, 59);
             this.number7.TabIndex = 2;
             this.number7.Text = "7";
             this.number7.UseVisualStyleBackColor = true;
@@ -175,9 +184,10 @@
             this.number8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number8.BackgroundImage")));
             this.number8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number8.Location = new System.Drawing.Point(113, 175);
+            this.number8.Location = new System.Drawing.Point(151, 215);
+            this.number8.Margin = new System.Windows.Forms.Padding(4);
             this.number8.Name = "number8";
-            this.number8.Size = new System.Drawing.Size(96, 48);
+            this.number8.Size = new System.Drawing.Size(128, 59);
             this.number8.TabIndex = 2;
             this.number8.Text = "8";
             this.number8.UseVisualStyleBackColor = true;
@@ -188,9 +198,10 @@
             this.number9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number9.BackgroundImage")));
             this.number9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number9.Location = new System.Drawing.Point(217, 175);
+            this.number9.Location = new System.Drawing.Point(289, 215);
+            this.number9.Margin = new System.Windows.Forms.Padding(4);
             this.number9.Name = "number9";
-            this.number9.Size = new System.Drawing.Size(96, 48);
+            this.number9.Size = new System.Drawing.Size(128, 59);
             this.number9.TabIndex = 2;
             this.number9.Text = "9";
             this.number9.UseVisualStyleBackColor = true;
@@ -201,9 +212,10 @@
             this.dot.BackColor = System.Drawing.Color.PaleGreen;
             this.dot.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dot.Location = new System.Drawing.Point(11, 229);
+            this.dot.Location = new System.Drawing.Point(15, 282);
+            this.dot.Margin = new System.Windows.Forms.Padding(4);
             this.dot.Name = "dot";
-            this.dot.Size = new System.Drawing.Size(96, 48);
+            this.dot.Size = new System.Drawing.Size(128, 59);
             this.dot.TabIndex = 2;
             this.dot.Text = ".";
             this.dot.UseVisualStyleBackColor = false;
@@ -214,9 +226,10 @@
             this.number0.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("number0.BackgroundImage")));
             this.number0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.number0.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.number0.Location = new System.Drawing.Point(113, 229);
+            this.number0.Location = new System.Drawing.Point(151, 282);
+            this.number0.Margin = new System.Windows.Forms.Padding(4);
             this.number0.Name = "number0";
-            this.number0.Size = new System.Drawing.Size(96, 48);
+            this.number0.Size = new System.Drawing.Size(128, 59);
             this.number0.TabIndex = 2;
             this.number0.Text = "0";
             this.number0.UseVisualStyleBackColor = true;
@@ -227,9 +240,10 @@
             this.DauBang.BackColor = System.Drawing.Color.PaleGreen;
             this.DauBang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DauBang.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DauBang.Location = new System.Drawing.Point(217, 229);
+            this.DauBang.Location = new System.Drawing.Point(289, 282);
+            this.DauBang.Margin = new System.Windows.Forms.Padding(4);
             this.DauBang.Name = "DauBang";
-            this.DauBang.Size = new System.Drawing.Size(96, 48);
+            this.DauBang.Size = new System.Drawing.Size(128, 59);
             this.DauBang.TabIndex = 2;
             this.DauBang.Text = "=";
             this.DauBang.UseVisualStyleBackColor = false;
@@ -240,9 +254,10 @@
             this.plusButton.BackColor = System.Drawing.Color.Gold;
             this.plusButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.plusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plusButton.Location = new System.Drawing.Point(319, 66);
+            this.plusButton.Location = new System.Drawing.Point(425, 81);
+            this.plusButton.Margin = new System.Windows.Forms.Padding(4);
             this.plusButton.Name = "plusButton";
-            this.plusButton.Size = new System.Drawing.Size(96, 49);
+            this.plusButton.Size = new System.Drawing.Size(128, 60);
             this.plusButton.TabIndex = 3;
             this.plusButton.Text = "+";
             this.plusButton.UseVisualStyleBackColor = false;
@@ -253,9 +268,10 @@
             this.minusButton.BackColor = System.Drawing.Color.Gold;
             this.minusButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.minusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minusButton.Location = new System.Drawing.Point(319, 121);
+            this.minusButton.Location = new System.Drawing.Point(425, 149);
+            this.minusButton.Margin = new System.Windows.Forms.Padding(4);
             this.minusButton.Name = "minusButton";
-            this.minusButton.Size = new System.Drawing.Size(96, 48);
+            this.minusButton.Size = new System.Drawing.Size(128, 59);
             this.minusButton.TabIndex = 3;
             this.minusButton.Text = "-";
             this.minusButton.UseVisualStyleBackColor = false;
@@ -266,9 +282,10 @@
             this.multiButton.BackColor = System.Drawing.Color.Gold;
             this.multiButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.multiButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.multiButton.Location = new System.Drawing.Point(319, 175);
+            this.multiButton.Location = new System.Drawing.Point(425, 215);
+            this.multiButton.Margin = new System.Windows.Forms.Padding(4);
             this.multiButton.Name = "multiButton";
-            this.multiButton.Size = new System.Drawing.Size(96, 48);
+            this.multiButton.Size = new System.Drawing.Size(128, 59);
             this.multiButton.TabIndex = 3;
             this.multiButton.Text = "*";
             this.multiButton.UseVisualStyleBackColor = false;
@@ -279,9 +296,10 @@
             this.moNgoac.BackColor = System.Drawing.Color.Gold;
             this.moNgoac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.moNgoac.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moNgoac.Location = new System.Drawing.Point(421, 67);
+            this.moNgoac.Location = new System.Drawing.Point(561, 82);
+            this.moNgoac.Margin = new System.Windows.Forms.Padding(4);
             this.moNgoac.Name = "moNgoac";
-            this.moNgoac.Size = new System.Drawing.Size(96, 49);
+            this.moNgoac.Size = new System.Drawing.Size(128, 60);
             this.moNgoac.TabIndex = 4;
             this.moNgoac.Text = "(";
             this.moNgoac.UseVisualStyleBackColor = false;
@@ -292,9 +310,10 @@
             this.dongNgoac.BackColor = System.Drawing.Color.Gold;
             this.dongNgoac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dongNgoac.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dongNgoac.Location = new System.Drawing.Point(421, 121);
+            this.dongNgoac.Location = new System.Drawing.Point(561, 149);
+            this.dongNgoac.Margin = new System.Windows.Forms.Padding(4);
             this.dongNgoac.Name = "dongNgoac";
-            this.dongNgoac.Size = new System.Drawing.Size(96, 44);
+            this.dongNgoac.Size = new System.Drawing.Size(128, 54);
             this.dongNgoac.TabIndex = 4;
             this.dongNgoac.Text = ")";
             this.dongNgoac.UseVisualStyleBackColor = false;
@@ -305,9 +324,10 @@
             this.xoa1so.BackColor = System.Drawing.Color.Gold;
             this.xoa1so.Cursor = System.Windows.Forms.Cursors.Hand;
             this.xoa1so.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xoa1so.Location = new System.Drawing.Point(421, 171);
+            this.xoa1so.Location = new System.Drawing.Point(561, 215);
+            this.xoa1so.Margin = new System.Windows.Forms.Padding(4);
             this.xoa1so.Name = "xoa1so";
-            this.xoa1so.Size = new System.Drawing.Size(96, 52);
+            this.xoa1so.Size = new System.Drawing.Size(128, 59);
             this.xoa1so.TabIndex = 4;
             this.xoa1so.Text = "<=";
             this.xoa1so.UseVisualStyleBackColor = false;
@@ -318,9 +338,10 @@
             this.xoaHet.BackColor = System.Drawing.Color.Gold;
             this.xoaHet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.xoaHet.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xoaHet.Location = new System.Drawing.Point(421, 229);
+            this.xoaHet.Location = new System.Drawing.Point(561, 282);
+            this.xoaHet.Margin = new System.Windows.Forms.Padding(4);
             this.xoaHet.Name = "xoaHet";
-            this.xoaHet.Size = new System.Drawing.Size(96, 48);
+            this.xoaHet.Size = new System.Drawing.Size(128, 59);
             this.xoaHet.TabIndex = 4;
             this.xoaHet.Text = "CA";
             this.xoaHet.UseVisualStyleBackColor = false;
@@ -331,9 +352,10 @@
             this.divideButton.BackColor = System.Drawing.Color.Gold;
             this.divideButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.divideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divideButton.Location = new System.Drawing.Point(319, 229);
+            this.divideButton.Location = new System.Drawing.Point(425, 282);
+            this.divideButton.Margin = new System.Windows.Forms.Padding(4);
             this.divideButton.Name = "divideButton";
-            this.divideButton.Size = new System.Drawing.Size(96, 48);
+            this.divideButton.Size = new System.Drawing.Size(128, 59);
             this.divideButton.TabIndex = 5;
             this.divideButton.Text = "/";
             this.divideButton.UseVisualStyleBackColor = false;
@@ -342,36 +364,38 @@
             // Bieuthuc_hauto
             // 
             this.Bieuthuc_hauto.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bieuthuc_hauto.Location = new System.Drawing.Point(11, 282);
-            this.Bieuthuc_hauto.Margin = new System.Windows.Forms.Padding(2);
+            this.Bieuthuc_hauto.Location = new System.Drawing.Point(15, 347);
+            this.Bieuthuc_hauto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Bieuthuc_hauto.Name = "Bieuthuc_hauto";
-            this.Bieuthuc_hauto.Size = new System.Drawing.Size(506, 39);
+            this.Bieuthuc_hauto.Size = new System.Drawing.Size(673, 47);
             this.Bieuthuc_hauto.TabIndex = 6;
             this.Bieuthuc_hauto.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(11, 327);
+            this.textBox1.Location = new System.Drawing.Point(15, 402);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(506, 35);
+            this.textBox1.Size = new System.Drawing.Size(673, 42);
             this.textBox1.TabIndex = 7;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
             // 
             // KetQuaBieuThuc
             // 
             this.KetQuaBieuThuc.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KetQuaBieuThuc.Location = new System.Drawing.Point(523, 12);
+            this.KetQuaBieuThuc.Location = new System.Drawing.Point(645, 15);
+            this.KetQuaBieuThuc.Margin = new System.Windows.Forms.Padding(4);
             this.KetQuaBieuThuc.Name = "KetQuaBieuThuc";
-            this.KetQuaBieuThuc.Size = new System.Drawing.Size(107, 46);
+            this.KetQuaBieuThuc.Size = new System.Drawing.Size(198, 56);
             this.KetQuaBieuThuc.TabIndex = 8;
             this.KetQuaBieuThuc.TextChanged += new System.EventHandler(this.KetQuaBieuThuc_TextChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 370);
+            this.ClientSize = new System.Drawing.Size(856, 455);
             this.Controls.Add(this.KetQuaBieuThuc);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Bieuthuc_hauto);
@@ -397,8 +421,9 @@
             this.Controls.Add(this.number1);
             this.Controls.Add(this.Box);
             this.Controls.Add(this.BoxInputOfStack);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

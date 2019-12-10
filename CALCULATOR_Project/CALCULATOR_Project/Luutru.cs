@@ -15,9 +15,10 @@ namespace CALCULATOR_Project
         private string trungto;
         public StringBuilder Bieuthuc = new StringBuilder();
         public Stack<char> Hauto = new Stack<char>();
-        public StringBuilder Luutrutoanhang=new StringBuilder();// đây là biểu thức hậu tố ta được 
+        public StringBuilder Luutrutoanhang=new StringBuilder(); 
         public string ST;
-        private int kiemtra = 0;
+        public StringBuilder BieuthucChuaXoa = new StringBuilder();
+        
         public string Trungto
         {
             get { return trungto; }
@@ -25,7 +26,7 @@ namespace CALCULATOR_Project
         }
         public void savegiatribieuthuc(string trungto)
         {
-           
+            BieuthucChuaXoa = Bieuthuc;
             if ((trungto == "+") || (trungto == "-") || (trungto == "*") || (trungto == "/"))
                 Bieuthuc.Append(" ").Append(trungto);
             else
@@ -59,17 +60,17 @@ namespace CALCULATOR_Project
                 else if (st == '(')
                 {
                     Hauto.Push(st);
-                    kiemtra++;
+                    
                 }
                 else if (st == ')')
                 {
-                    kiemtra--;
-                    char x = Hauto.Pop();
+                    
+                    char x = Hauto.Peek();
                     while (x != '(')
                     {
-                        //char y = Hauto.Pop();
-                        Luutrutoanhang.Append(' ').Append(x);
-                        x = Hauto.Pop();
+                        char y = Hauto.Pop();
+                        Luutrutoanhang.Append(' ').Append(y);
+                        x = Hauto.Peek();
                     }
                     if (Hauto.Peek() == '(')
                         Hauto.Pop();
@@ -89,8 +90,7 @@ namespace CALCULATOR_Project
                         char y = Hauto.Pop();
                         Luutrutoanhang.Append(y).Append(' ');
                         Hauto.Push(st);
-                        //if (douutien(st) <= douutien(Hauto.Peek()))
-                        //  Luutrutoanhang.Append(st);
+                        
                     }
 
                 }
@@ -110,20 +110,6 @@ namespace CALCULATOR_Project
             }
             ST = ST.Trim();
         }
-        /*public string Test()
-        { 
-            if (kiemtra > 0)
-            {
-                MessageBox.Show("Dư dấu mở ngoặc hoặc thiếu dấu đóng ngoặc.");
-                return Form1.result = "error";
-            }
-            if (kiemtra < 0)
-            {
-                MessageBox.Show("Dư dấu đóng ngoặc hoặc thiếu dấu mở ngoặc.");
-                return Form1.result = "error";
-            }
-            return "no";
-        }*/
-
+        
     }
 }

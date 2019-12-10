@@ -26,3 +26,32 @@ E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CAL
 E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.GenerateResource.cache
 E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.exe
 E:\github\Project_CALCULATOR\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.pdb
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe.config
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.pdb
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csprojAssemblyReference.cache
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Form1.resources
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Properties.Resources.resources
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.exe
+C:\Users\ACER\Documents\Zalo Received Files\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.pdb
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe.config
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.pdb
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csprojAssemblyReference.cache
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Form1.resources
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Properties.Resources.resources
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.GenerateResource.cache
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.CoreCompileInputs.cache
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.exe
+D:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.pdb
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe.config
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.exe
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\bin\Debug\CALCULATOR_Project.pdb
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csprojAssemblyReference.cache
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Form1.resources
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.Properties.Resources.resources
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.csproj.GenerateResource.cache
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.exe
+E:\Cấu trúc dữ liệu\CALCULATOR_Project\CALCULATOR_Project\obj\Debug\CALCULATOR_Project.pdb

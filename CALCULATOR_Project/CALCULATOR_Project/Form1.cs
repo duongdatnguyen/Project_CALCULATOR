@@ -12,6 +12,7 @@ namespace CALCULATOR_Project
 {
     public partial class Form1 : Form
     {
+        int thieudau = 0;
         int loidau = 0;
         int kiemtra = 0;
         TinhToan R = new TinhToan();
@@ -145,7 +146,7 @@ namespace CALCULATOR_Project
             R.Trungto = null;
             R.Luutrutoanhang.Clear();
             R.Hauto.Clear();
-            R.Giatri.Clear();
+            //R.Giatri.Clear();
         }
 
         private void plusButton_Click(object sender, EventArgs e)
@@ -201,6 +202,7 @@ namespace CALCULATOR_Project
 
         private void moNgoac_Click(object sender, EventArgs e)
         {
+            thieudau++;
             loidau = 0;
             kiemtra++;
             BoxInputOfStack.Text = null;
@@ -219,7 +221,23 @@ namespace CALCULATOR_Project
 
         private void xoa1so_Click(object sender, EventArgs e)
         {
-            
+           
+            int x = R.Bieuthuc.Length;
+            if ((R.Bieuthuc[x-1] == '+') ||( R.Bieuthuc[x - 1] == '-') || (R.Bieuthuc[x - 1] == '*') || (R.Bieuthuc[x - 1] == '/'))
+
+            {
+                loidau--;
+                R.Bieuthuc.Remove(x - 2, 2);
+            }
+            else
+                R.Bieuthuc.Remove(x - 1, 1);
+
+
+           
+           textBox1.Text = R.Bieuthuc.ToString();
+            Box.Text = R.Bieuthuc.ToString();
+
+            kiemtra = 0;
         }
 
         private void xoaHet_Click(object sender, EventArgs e)
@@ -236,6 +254,8 @@ namespace CALCULATOR_Project
             R.Luutrutoanhang.Clear();
             R.Hauto.Clear();
             R.Giatri.Clear();
+            
+            
         }
 
         private void Box_TextChanged(object sender, EventArgs e)// đang xử lý
